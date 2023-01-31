@@ -94,7 +94,7 @@ while(1):
                 y_b = int(centers[1][0])
                 (w_b, h_b) = (r, r)
 
-    out = draw_function(frame.copy(), x_p1, y_p1, w_p1, h_p1, x_p2, y_p2, w_p2, h_p2, x_b, y_b, w_b, h_b, p1_score, p2_score, hitby)
+    out = draw_function(frame.copy(), x_p1, y_p1, w_p1, h_p1, x_p2, y_p2, w_p2, h_p2, x_b, y_b, w_b, h_b, p1_score, p2_score)
 
     # Determine turn of players
     # ... 1. Determine distance to ball for the frame
